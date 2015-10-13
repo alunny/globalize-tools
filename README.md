@@ -1,5 +1,7 @@
 # default-globalize-messages
 
+Default messages for [Globalize][g].
+
 Allows calls to Globalize.formatMessage and Globalize.messageFormatter to return
 themselves, for simplified development.
 
@@ -20,4 +22,5 @@ Extracted from @kborchers's [react-globalize][rg] )project.
 require("default-globalize-messages").set();
 ```
 
+[g]: https://github.com/jquery/globalize
 [rg]: https://github.com/kborchers/react-globalize
