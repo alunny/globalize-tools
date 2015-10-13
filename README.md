@@ -24,3 +24,7 @@ require("default-globalize-messages").set();
 
 [g]: https://github.com/jquery/globalize
 [rg]: https://github.com/kborchers/react-globalize
+
+## License
+
+MIT
