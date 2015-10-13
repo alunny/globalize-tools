@@ -1,6 +1,6 @@
 {
   "name": "default-globalize-messages",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "default message support for Globalize.messageFormatter",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alunny/default-globalize-message.git"
+    "url": "git+https://github.com/alunny/default-globalize-messages.git"
   },
   "keywords": [
     "globalize",
@@ -17,9 +17,9 @@
   "author": "alunny",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alunny/default-globalize-message/issues"
+    "url": "https://github.com/alunny/default-globalize-messages/issues"
   },
-  "homepage": "https://github.com/alunny/default-globalize-message#readme",
+  "homepage": "https://github.com/alunny/default-globalize-messages#readme",
   "devDependencies": {
     "jshint": "^2.8.0"
   },
