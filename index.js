@@ -43,7 +43,7 @@ messageFormatterWithDefaults._overridden = true;
 
 function set() {
   if (Globalize.messageFormatter._overridden) {
-    console.warn("warning: messageFormatter is already overridden");
+    console.warn("[default-globalize-messages] warning: messageFormatter is already overridden");
     return false;
   }
 
