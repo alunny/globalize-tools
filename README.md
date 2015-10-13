@@ -13,7 +13,7 @@ formatter({ name: "Andrew" });
 // => "Hello Andrew"
 ```
 
-Extracted from @kborchers's [react-globalize][rg] )project.
+Extracted from @kborchers's [react-globalize][rg] project.
 
 ## Usage
 
