@@ -1,6 +1,6 @@
 {
   "name": "default-globalize-messages",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "default message support for Globalize.messageFormatter",
   "main": "index.js",
   "scripts": {
