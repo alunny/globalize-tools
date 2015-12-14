@@ -21,9 +21,7 @@
   },
   "homepage": "https://github.com/alunny/default-globalize-messages#readme",
   "devDependencies": {
+    "globalize": ">= 1.0.0 || 1.1.0-alpha - 1.1.x",
     "jshint": "^2.8.0"
-  },
-  "peerDependencies": {
-    "globalize": ">= 1.0.0 || 1.1.0-alpha - 1.1.x"
   }
 }

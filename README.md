@@ -15,6 +15,17 @@ formatter({ name: "Andrew" });
 
 Extracted from @kborchers's [react-globalize][rg] project.
 
+## Dependencies
+
+This has a peer dependency on Globalize - currently:
+
+```
+"globalize": ">= 1.0.0 || 1.1.0-alpha - 1.1.x"
+```
+
+Because `peerDependencies` support in npm is not very good, it is listed as a
+dev dependency in `package.json`.
+
 ## Usage
 
 ```js
