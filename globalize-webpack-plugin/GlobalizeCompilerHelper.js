@@ -1,5 +1,5 @@
 var fs = require("fs");
-var globalizeCompiler = require("globalize-compiler");
+var globalizeCompiler = require("../globalize-compiler");
 var path = require("path");
 
 function GlobalizeCompilerHelper(attributes) {

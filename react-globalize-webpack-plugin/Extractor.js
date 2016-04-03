@@ -2,7 +2,7 @@
  * abstraction for containing extracted phrases from react-globalize-compiler
  */
 var extend = require("util")._extend;
-var reactGlobalizeCompiler = require("react-globalize-compiler");
+var reactGlobalizeCompiler = require("../react-globalize-compiler");
 
 function Extractor() {
   this.asts = {};

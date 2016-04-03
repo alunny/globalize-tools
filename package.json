@@ -3,6 +3,14 @@
   "version": "0.9.9",
   "description": "Unified repo for Globalize tooling",
   "main": "index.js",
+  "scripts": {
+    "test": "./script/test_packages",
+    "test:default_globalize_messages": "cd default-globalize-messages && jshint index.js",
+    "test:globalize_compiler": "cd globalize-compiler && jshint index.js lib/**/*.js test/*.js && mocha",
+    "test:globalize_webpack_plugin": "cd globalize-webpack-plugin && jshint *.js",
+    "test:react_globalize_compiler": "cd react-globalize-compiler && jshint index.js lib/**/*.js test/*.js && mocha",
+    "test:react_globalize_webpack_plugin": "cd react-globalize-webpack-plugin && jshint *.js"
+  },
   "keywords": [
     "cldr",
     "globalize",
@@ -13,7 +21,6 @@
   "license": "MIT",
   "dependencies": {
     "async": "^1.4.0",
-    "default-globalize-messages": "^0.1.1",
     "escodegen": "^1.6.1",
     "esprima": "^2.3.0",
     "json-stable-stringify": "^1.0.0",
@@ -33,7 +40,9 @@
     "babel-preset-react": "^6.3.13",
     "chai": "1.10.x",
     "cldr-data": ">=25",
+    "globalize": "1.1.x",
     "jshint": "2.6.x",
-    "mocha": "2.1.0"
+    "mocha": "2.1.0",
+    "webpack": "^1.9.0"
   }
 }

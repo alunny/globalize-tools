@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+
+npm run test:default_globalize_messages
+npm run test:globalize_compiler
+npm run test:globalize_webpack_plugin
+npm run test:react_globalize_compiler
+npm run test:react_globalize_webpack_plugin
